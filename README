@@ -1,0 +1,6 @@
+
+Push/Pull Gameplay Test
+
+If the player manages to get inside of a FIXED entity and presses crouch, they'll fall out of the screen. So preventing the player entity from entering into a FIXED entity is very important. This can be done by pulling a crate while backing into another crate.
+
+Crates can push one another. Even though the crates have a FIXED collision, crates that are added later can be pushed by crates add earlier. Crates can also push other crates off the stage. If two are right up against one another and the other is pushed, sometimes it can push it down off the screen. If one falls on another, it can push it down as well.
